@@ -8,7 +8,7 @@
  (foreign_stubs
   (language c)
   (names arb_stub)
-  (flags :standard -lflint -lflint-arb -lgmp -lstdc++ -w)
+  (flags :standard -lflint -lgmp -lstdc++ -w)
  )
   (c_library_flags :standard -lflint -lflint-arb -lgmp)
 )
