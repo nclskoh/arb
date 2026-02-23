@@ -10,7 +10,7 @@
   (names arb_stub)
   (flags :standard -lflint -lgmp -lstdc++ -w)
  )
-  (c_library_flags :standard -lflint -lflint-arb -lgmp)
+  (c_library_flags :standard -lflint -lgmp)
 )
 
 ;Optional library which gives more direct translations from zarith types
